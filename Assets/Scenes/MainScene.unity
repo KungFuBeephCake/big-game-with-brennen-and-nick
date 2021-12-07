@@ -376,6 +376,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a093531df3cc94ab8667c3daf3456c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxhealthP2: 100
+  loseHPp2: -2
+  frontHealthBar2: {fileID: 0}
+  backHealthBar2: {fileID: 0}
 --- !u!1 &336634056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1234,7 @@ GameObject:
   - component: {fileID: 1492852678}
   - component: {fileID: 1492852684}
   - component: {fileID: 1492852685}
+  - component: {fileID: 1492852686}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -1416,6 +1421,19 @@ MonoBehaviour:
   loseHP: 2
   frontHealthBar: {fileID: 866496759}
   backHealthBar: {fileID: 227813050}
+--- !u!114 &1492852686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492852677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd52bc39e0ec444090ad2aadd83d8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1492852684}
 --- !u!1 &1518495925
 GameObject:
   m_ObjectHideFlags: 0
